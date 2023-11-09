@@ -15,7 +15,7 @@
 	<name>docker</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<!-- Add Spring Boot Starter Data JPA and Web -->
 	<dependencies>
