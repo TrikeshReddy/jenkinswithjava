@@ -38,6 +38,11 @@ public class UserController {
     public User addUser(@RequestBody User user) {
         return userRepository.save(user);
     }
+    
+    @PostMapping("/test")
+    public User addingUser(@RequestBody User user) {
+        return userRepository.save(user);
+    }
 
     @PutMapping("/{id}")
     public User updateUser(@RequestBody User user, @PathVariable Long id) {
